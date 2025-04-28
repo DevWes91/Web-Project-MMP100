@@ -1,8 +1,42 @@
-body{
-  background-color: 
-#898e3dc7;
+body {
+  background-color: #b08500c7;
+  font-family: Cambria, Cochin, Georgia, Times, monospace;
+  font-size: 24px;
 }
-body{
-  background-color: 
-#898e3dc7;
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+div,
+h1,
+p,
+main {
+  text-align: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+}
+.media-title,
+.site-title {
+  color: #375270;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, Verdana, Geneva, Tahoma, monospace;
+}
+.welcome {
+  color: #375270;
+}
+figcaption {
+  font-size: 18px;
+}
+footer {
+  font-size: 12px;
+  color: aliceblue;
 }
